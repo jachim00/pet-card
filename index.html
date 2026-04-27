@@ -74,12 +74,12 @@
               </p>
             </div>
           </div>
-          <!-- ID badge + przycisk System -->
-          <div class="absolute top-6 right-6 flex flex-col items-end gap-2">
-            <div class="bg-white/20 backdrop-blur-md rounded-full px-4 py-2 text-xs font-semibold tracking-wide ring-1 ring-white/30">
+          <!-- ID badge + przycisk System (mobile: pod tytułem; desktop: prawy górny róg) -->
+          <div class="relative mt-6 flex flex-wrap items-center gap-2 sm:absolute sm:top-6 sm:right-6 sm:mt-0 sm:flex-col sm:items-end">
+            <div class="bg-white/20 backdrop-blur-md rounded-full px-3 py-1.5 sm:px-4 sm:py-2 text-[11px] sm:text-xs font-semibold tracking-wide ring-1 ring-white/30">
               ID: 616 093 900 012 345
             </div>
-            <button onclick="showView('panel')" class="group bg-white text-orange-600 hover:bg-orange-50 active:scale-95 transition-all rounded-full pl-4 pr-3 py-2 text-sm font-bold shadow-lg shadow-orange-900/20 ring-2 ring-white/60 inline-flex items-center gap-2">
+            <button onclick="showView('panel')" class="group bg-white text-orange-600 hover:bg-orange-50 active:scale-95 transition-all rounded-full pl-3 pr-2 py-1.5 sm:pl-4 sm:pr-3 sm:py-2 text-sm font-bold shadow-lg shadow-orange-900/20 ring-2 ring-white/60 inline-flex items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" class="group-hover:rotate-12 transition-transform"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
               System
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
